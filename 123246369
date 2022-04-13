@@ -1,0 +1,103 @@
+# f = open("test.txt","r")
+# 객채 = open("파일이름","모드") 모드 = [r - read(읽기모드),w = write(쓰기모드),a = add(추가하기)]
+# read() = 파일에 있는 글을 모두 불러온다.
+
+# a = f.read()
+# cnt = 0
+# for i in a:
+#     if '\n' in i:
+#         cnt += 1
+# print(cnt+1)
+
+# a = f.readline() # = 한줄만 읽어온다.
+# print(a)
+
+# a = f.readlines() # = ['First Row\n', 'Second Row\n', 'Third Row']
+# print(a)
+# cnt = 0
+# for i in a:
+#     if '\n' in i:
+#         cnt += 1
+# print(cnt+1)
+
+# write = 파일에 있는걸 지우고 새로 쓰여진다.
+
+# f.close()# 파일을 종료하는 함수.
+
+
+
+
+
+# 1. 구구단 출력
+#
+# a,b = map(int,input().split())
+# if a > b:
+#     a,b = b,a # swap
+# def ggd(a,b):
+#     for j in range(min(a,b), max(a,b) + 1):
+#         print("===%d단===" % j)
+#         for i in range(1,10):
+#           print("%d * %d = %d"%(j,i,j*i))
+#
+# x,y = map(int,input().split())
+# ggd(x,y)
+
+# def sq(a):
+#     for i in range(1,a+1):
+#         for j in range(1,a+1):
+#             print(i * j,end = " ")
+#         print()
+#
+# x = int(input())
+# sq(x)# f = open("test.txt","r")
+# # 객채 = open("파일이름","모드") 모드 = [r - read(읽기모드),w = write(쓰기모드),a = add(추가하기)]
+# # read() = 파일에 있는 글을 모두 불러온다.
+#
+# # a = f.read()
+# # cnt = 0
+# # for i in a:
+# #     if '\n' in i:
+# #         cnt += 1
+# # print(cnt+1)
+#
+# # a = f.readline() # = 한줄만 읽어온다.
+# # print(a)
+#
+# # a = f.readlines() # = ['First Row\n', 'Second Row\n', 'Third Row']
+# # print(a)
+# # cnt = 0
+# # for i in a:
+# #     if '\n' in i:
+# #         cnt += 1
+# # print(cnt+1)
+#
+# # write = 파일에 있는걸 지우고 새로 쓰여진다.
+#
+# # f.close()# 파일을 종료하는 함수.
+#
+#
+#
+#
+#
+# # 1. 구구단 출력
+# #
+# # a,b = map(int,input().split())
+# # if a > b:
+# #     a,b = b,a # swap
+# # def ggd(a,b):
+# #     for j in range(min(a,b), max(a,b) + 1):
+# #         print("===%d단===" % j)
+# #         for i in range(1,10):
+# #           print("%d * %d = %d"%(j,i,j*i))
+# #
+# # x,y = map(int,input().split())
+# # ggd(x,y)
+#
+# # def sq(a):
+# #     for i in range(1,a+1):
+# #         for j in range(1,a+1):
+# #             print(i * j,end = " ")
+# #         print()
+# #
+# # x = int(input())
+# # sq(x)
